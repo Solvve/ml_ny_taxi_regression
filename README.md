@@ -19,10 +19,10 @@ For solving this problem we followed the next steps:
 
 Outcomes:
 
-- Model:  DecisionTreeRegressor from SparkML package.
-- Root Mean Squared Error (RMSE) on test data = 4.58618
+- Models:  DecisionTreeRegressor  and GBTRegressor from SparkML package.
+- Root Mean Squared Error (RMSE) on test data = 4.1192 (GBT model)
 
-| Model | Naive (average) | Decision Tree  |
-| :---: | :---: | :---: |
-| RMSE | 5.9382 | 4.58618 |
+| Model | Naive (average) | Decision Tree  | GBT |
+| :---: | :---: | :---: | :---: |
+| RMSE | 5.9342 | 4.4000 | 4.1192
 
